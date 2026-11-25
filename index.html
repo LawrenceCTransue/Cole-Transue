@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cole Transue | Football Coach</title>
+<meta name="description" content="Cole Transue — football coach. Full coaching profile coming soon.">
+<link rel="canonical" href="https://coletransue.com/">
+<meta property="og:title" content="Cole Transue | Football Coach">
+<meta property="og:description" content="Football coach. Full coaching profile coming soon.">
+<meta property="og:url" content="https://coletransue.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0b1626;
+    --navy-2:#13233b;
+    --line:rgba(255,255,255,0.12);
+    --text:#e9eef5;
+    --muted:#9fb0c6;
+    --accent:#d9a441;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    min-height:100vh;
+    background:
+      repeating-linear-gradient(90deg, transparent 0 calc(10% - 1px), var(--line) calc(10% - 1px) 10%),
+      linear-gradient(180deg, var(--navy) 0%, var(--navy-2) 100%);
+    color:var(--text);
+    font-family:'Inter',sans-serif;
+    display:flex;flex-direction:column;align-items:center;
+    padding:56px 20px 40px;
+    text-align:center;
+  }
+  .eyebrow{
+    font-family:'Oswald',sans-serif;font-weight:500;
+    letter-spacing:0.28em;font-size:13px;color:var(--accent);
+    margin-bottom:14px;
+  }
+  h1{
+    font-family:'Oswald',sans-serif;font-weight:700;
+    font-size:clamp(44px,9vw,88px);line-height:1;letter-spacing:0.02em;
+    text-transform:uppercase;
+  }
+  .role{
+    margin-top:12px;font-size:18px;color:var(--muted);letter-spacing:0.04em;
+  }
+  .bar{width:64px;height:3px;background:var(--accent);margin:28px auto;}
+  .photos{
+    display:flex;flex-wrap:wrap;gap:18px;justify-content:center;
+    width:100%;max-width:880px;margin-top:8px;
+  }
+  .photos figure{
+    flex:1 1 300px;max-width:420px;
+    border:1px solid var(--line);border-radius:6px;overflow:hidden;
+    background:rgba(255,255,255,0.03);
+    aspect-ratio:4/5;
+  }
+  .photos img{width:100%;height:100%;object-fit:cover;display:block;}
+  .soon{
+    margin-top:36px;max-width:520px;color:var(--muted);font-size:16px;line-height:1.7;
+  }
+  .soon strong{color:var(--text);font-weight:500;}
+  footer{margin-top:auto;padding-top:48px;font-size:12px;color:var(--muted);letter-spacing:0.08em;}
+</style>
+</head>
+<body>
+
+  <div class="eyebrow">FOOTBALL</div>
+  <h1>Cole Transue</h1>
+  <div class="role">Football Coach</div>
+  <div class="bar"></div>
+
+  <div class="photos">
+    <figure><img src="cole-1.jpg" alt="Cole Transue" onerror="this.parentElement.remove()"></figure>
+    <figure><img src="cole-2.jpg" alt="Cole Transue" onerror="this.parentElement.remove()"></figure>
+  </div>
+
+  <p class="soon"><strong>Full coaching profile coming soon.</strong><br>
+  Playing background, film and contact information will be posted here.</p>
+
+  <footer>&copy; 2026 COLE TRANSUE</footer>
+
+</body>
+</html>
